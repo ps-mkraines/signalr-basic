@@ -1,7 +1,7 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSignalR().AddAzureSignalR();
+builder.Services.AddSignalR(); //.AddAzureSignalR();
 
 var app = builder.Build();
 
